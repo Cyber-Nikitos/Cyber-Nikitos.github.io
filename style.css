@@ -8,8 +8,8 @@ form{
     transition: transform 0.5s ease;
 
     min-height: 500px;
-    background-color: rgb(85, 39, 238);
-    width: 650px;
+    background-color: rgb(8, 0, 34);
+    width: 600px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -26,10 +26,6 @@ form{
     color: white;
     font-size: 48px;
 }
-.title1{
-    color: white;
-    font-size: 28px;
-}
 
 .text{
     color: white;
@@ -40,15 +36,12 @@ form{
 }
 
 .submit{
-    background-color: white;
-    color: rgb(56, 58, 206);
+    background-color: transparent;
+    color: white;
     border: 3px solid white;
     padding: 5px 10px;
     cursor: pointer;
-    border-radius: 5px;
-    height: 40px;
-    width: 105px;
-    font-size: 20px;
+    border-radius: 10px;
 }
 
 .toggle-form{
